@@ -1,0 +1,25 @@
+.advertising {
+    height: 188px;
+    background-image: url('./../../img/fon_rectangle_girl.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 68px;
+    margin-bottom: 70px;
+    &-second {
+        background-image: url('./../../img/rectangle.jpg');
+    }
+    &__body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__text {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+}

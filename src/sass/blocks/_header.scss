@@ -1,0 +1,65 @@
+.header {
+    padding: 40px 0;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        gap: 28px;
+        padding-left: 83px;
+    }
+    &__link {
+        list-style-type: none;
+        a {
+            font-size: 18px;
+            transition: all 0.3s ease-in;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__shop {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        margin-left: auto;
+        transition: all 0.3s ease-in;
+        &:hover {
+            transform: scale(1.2);
+        }
+        &::before {
+            content: attr(data-number);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+            position: absolute;
+            top: -10px;
+            left: 8px;
+            border-radius: 50%;
+            background-color: $main-color;
+            color: #FFFFFF;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    &__logo {
+        font-size: 28px;
+        transition: all 0.3s ease-in;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

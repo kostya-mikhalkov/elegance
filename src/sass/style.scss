@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    max-width: 2002px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/hamburger';
+@import 'blocks/product';
+@import 'blocks/advertising';
+
+@import 'blocks/media';

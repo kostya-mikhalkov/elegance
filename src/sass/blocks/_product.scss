@@ -1,0 +1,66 @@
+.product {
+    padding-bottom: 70px;
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 56px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #999999;
+        margin-bottom: 40px;
+    }
+    &__img {
+        width: 270px;
+        height: 350px;
+        margin-bottom: 12px;
+        img {
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__name {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    &__body {
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        justify-content: space-between;
+        row-gap: 40px;
+        margin-bottom: 40px;
+    }
+    &__price {
+        text-align: center;
+        span:nth-child(1) {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #999999;
+            margin-right: 10px;
+        }
+        span:nth-child(2) {
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+}
