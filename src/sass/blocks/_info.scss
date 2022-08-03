@@ -1,0 +1,22 @@
+.info {
+    padding-bottom: 100px;
+    &__descr {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 56px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #999999;
+        max-width: 630px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}

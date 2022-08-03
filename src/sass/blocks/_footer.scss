@@ -1,0 +1,37 @@
+.footer {
+    background: #000000;
+    padding: 30px 0;
+    &__contact {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 25px;
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            transition: all 0.3s ease-in;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        gap: 31px;
+        a {
+            svg {
+                path {
+                    transition: all 0.3s ease-in;
+                    &:hover {
+                        fill: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

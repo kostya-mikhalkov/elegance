@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    &__input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #999999;
+        background: #FFFFFF;
+        border: 1px solid $main-color;
+        border-radius: 4px;
+        width: 229px;
+        height: 42px;
+        padding: 10px 0 10px 10px;
+    }
+    &__btn {
+        width: 134px;
+        height: 42px;
+        background-color: $main-color;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        transition: all 0.3s ease-in;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

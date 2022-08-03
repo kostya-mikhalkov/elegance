@@ -12,6 +12,11 @@
             grid-template-columns: repeat(3, 270px);
         }
     }
+    .blog {
+        &__body {
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -108,6 +113,27 @@
             font-size: 26px;
             &_fz {
                 font-size: 23px;
+            }
+        }
+    }
+    .blog {
+        &__content {
+            flex-direction: column;
+        }
+    }
+    .info {
+        &__descr {
+            font-size: 30px;
+            line-height: 42px;
+        }
+        &__text {
+            font-size: 13px;
+        }
+    }
+    .footer {
+        &__contact {
+            a {
+                font-size: 9px;
             }
         }
     }
